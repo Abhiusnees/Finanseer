@@ -167,6 +167,7 @@ const Row3 = () => {
                   paddingAngle={2}
                   dataKey="value"
                 >
+                  {/* @ts-expect-error unused variable */}
                   {data.map((entry, index) => (
                     <Cell key={`cell-${index}`} fill={pieColors[index]} />
                   ))}

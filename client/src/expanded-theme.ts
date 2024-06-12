@@ -1,6 +1,6 @@
 //extending MUI themes to support the custom defined themes
-//eslint-disable-next-line
-import { Palette, PaletteColor } from "@mui/material/styles/createPalette";
+/* @ts-expect-error unused variable */
+import { Palette, PaletteColor } from "@mui/material/styles/createPalette"; // eslint-disable-line @typescript-eslint/no-unused-vars
 
 declare module "@mui/material/styles/createPalette" {
   interface PaletteColor {
